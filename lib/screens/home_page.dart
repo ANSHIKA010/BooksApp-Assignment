@@ -44,38 +44,31 @@ class _HomePageState extends State<HomePage> {
       future: FetchData.instance.getData(),
       builder: (context, snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
-          // Data is being fetched, show a loading indicator.
           return const Align(alignment: Alignment.center, child: CircularProgressIndicator(),);
         } else if (snapshot.hasError) {
-          // An error occurred, display an error message.
           return Text('Error: ${snapshot.error}');
         } else {
-          // Data has been fetched, display it.
           final data = snapshot.data;
+          List<Widget> widgets = [
+            ListTile(
+              title: Text("Item 1"),
+              subtitle: Text("Sub Item 1"),
+            ),
+          ];
+
+          if(data!= null && data["leads"] != null){
+            widgets =   data["leads"]?.map<Widget>((lead) =>
+                ListTile(
+                  title: Text(lead["firstName"] + " " + lead["lastName"]),
+                  subtitle: Text(lead["email"]),
+                ),
+            ).toList();
+          }
+
           return  ListView(
             scrollDirection: Axis.vertical,
-            children: [
-              ListTile(
-                title: Text("Item 1"),
-                subtitle: Text("Sub Item 1"),
-              ),
-              ListTile(
-                title: Text("Item 2"),
-                subtitle: Text("Sub Item 2"),
-              ),
-              ListTile(
-                title: Text("Item 3"),
-                subtitle: Text("Sub Item 3"),
-              ),
-              ListTile(
-                title: Text("Item 4"),
-                subtitle: Text("Sub Item 4"),
-              ),
-              ListTile(
-                title: Text("Item 5"),
-                subtitle: Text("Sub Item 5"),
-              ),
-            ],
+            children: widgets
+
           );
         }
       },
