@@ -2,15 +2,11 @@
 
 An assignment for  91 TECHNOLOGIES PRIVATE LIMITED . Flutter developer internship task.
 
-## Getting Started
+## Screen Recording
+[assignment recording.webm](https://github.com/ANSHIKA010/BooksApp-Assignment/assets/99765179/8d098e89-e74a-4604-a9a7-42d0aae38768)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## App Screenshots
+<div>
+  <img src="https://github.com/ANSHIKA010/BooksApp-Assignment/assets/99765179/5952d7e7-5816-4b76-9066-149eec4fd4dc" height="600">
+  <img src="https://github.com/ANSHIKA010/BooksApp-Assignment/assets/99765179/8ab5b185-c29d-4b63-b416-fcf8fdc7f316" height="600">
+</div>
