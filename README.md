@@ -1,6 +1,6 @@
-# booksapp_asign
+ # booksapp_asign
 
-An assignment for  91 TECHNOLOGIES PRIVATE LIMITED . Flutter developer internship task.
+An assignment for  91 TECHNOLOGIES PRIVATE LIMITED . Flutter developer task.
 
 ## Screen Recording
 [assignment recording.webm](https://github.com/ANSHIKA010/BooksApp-Assignment/assets/99765179/8d098e89-e74a-4604-a9a7-42d0aae38768)
