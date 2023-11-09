@@ -1,4 +1,5 @@
 import 'package:booksapp_asign/services/fetch_data.dart';
+import 'package:booksapp_asign/services/snackbar_service.dart';
 import 'package:flutter/material.dart';
 
 
@@ -26,6 +27,7 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
+    SnackBarService.instance.buildContext = context;
     return Scaffold(
       appBar: AppBar(
         title: Text("Listexample"),
@@ -46,6 +48,7 @@ class _HomePageState extends State<HomePage> {
         if (snapshot.connectionState == ConnectionState.waiting) {
           return const Align(alignment: Alignment.center, child: CircularProgressIndicator(),);
         } else if (snapshot.hasError) {
+
           return Text('Error: ${snapshot.error}');
         } else {
           final data = snapshot.data;
@@ -63,6 +66,7 @@ class _HomePageState extends State<HomePage> {
                   subtitle: Text(lead["email"]),
                 ),
             ).toList();
+
           }
 
           return  ListView(
