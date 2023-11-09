@@ -3,10 +3,10 @@
 An assignment for  91 TECHNOLOGIES PRIVATE LIMITED . Flutter developer task.
 
 ## Screen Recording
-[assignment recording.webm](https://github.com/ANSHIKA010/BooksApp-Assignment/assets/99765179/8d098e89-e74a-4604-a9a7-42d0aae38768)
+[assignment recording.webm](https://github.com/ANSHIKA010/BooksApp-Assignment/assets/99765179/6cc461e7-acd2-4fd7-831b-48605c0f8c15)
 
 ## App Screenshots
 <div>
-  <img src="https://github.com/ANSHIKA010/BooksApp-Assignment/assets/99765179/5952d7e7-5816-4b76-9066-149eec4fd4dc" height="600">
-  <img src="https://github.com/ANSHIKA010/BooksApp-Assignment/assets/99765179/8ab5b185-c29d-4b63-b416-fcf8fdc7f316" height="600">
+  <img src="https://github.com/ANSHIKA010/BooksApp-Assignment/assets/99765179/e004a311-489b-4b94-94de-b13b9fce7877" height="600">
+  <img src="https://github.com/ANSHIKA010/BooksApp-Assignment/assets/99765179/f6da9439-bbcc-43c9-91b7-376c797507a5" height="600">
 </div>
