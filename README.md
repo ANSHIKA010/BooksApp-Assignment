@@ -1,9 +1,9 @@
  # booksapp_asign
 
-An assignment for  91 TECHNOLOGIES PRIVATE LIMITED . Flutter developer task.
+An app demonstrating my work on performing API call in flutter application an rendering the data.
 
 ## Screen Recording
-[assignment recording.webm](https://github.com/ANSHIKA010/BooksApp-Assignment/assets/99765179/6cc461e7-acd2-4fd7-831b-48605c0f8c15)
+[recording.webm](https://github.com/ANSHIKA010/BooksApp-Assignment/assets/99765179/6cc461e7-acd2-4fd7-831b-48605c0f8c15)
 
 ## App Screenshots
 <div>
